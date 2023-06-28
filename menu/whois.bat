@@ -41,5 +41,5 @@ if "%choice%"=="1" (
     echo Invalid choice. Try Again.
 )
 
-exit
+call app.bat
 pause > nul
