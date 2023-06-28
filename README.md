@@ -1,5 +1,5 @@
 <h1 align="center">Script for retrieve information from an ip !</h1>
-<em><h5 align="center">(Programming Language - Bash)</h5></em>
+<em><h5 align="center">(Programming Language - Batch)</h5></em>
 
 # Tutorial to install this codes ! For Windows
 
