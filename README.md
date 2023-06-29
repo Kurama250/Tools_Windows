@@ -5,7 +5,7 @@
 
 ## 1 - Tranfers the files on your computer !
 
-- Open Menu :
+- Open script :
 
 ```bash
 Just open : app.bat
