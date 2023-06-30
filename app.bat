@@ -1,4 +1,6 @@
 @echo off
+rem Creator : Kurama
+rem Github : https://github.com/Kurama250
 
 cls
 echo "|-------------------------------------------|"
