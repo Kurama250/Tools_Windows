@@ -3,7 +3,7 @@
 
 # Tutorial to install this codes ! For Windows
 
-## 1 - Tranfers the files on your computer !
+## 1 - Tranfers the files on your desktop !
 
 - Open script Menu :
 
