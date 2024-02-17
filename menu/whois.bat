@@ -1,7 +1,9 @@
 @echo off
+rem Creator : Kurama
+rem Github : https://github.com/Kurama250
 
 cls
-echo "|-------------------------------------------|"
+echo " ------------------------------------------- "
 echo "|    /\ /\_   _ _ __ __ _ _ __ ___   __ _   |"
 echo "|   / //_/ | | | '__/ _` | '_ ` _ \ / _`|   |"
 echo "|  / __ \| |_| | | | (_| | | | | | | (_| |  |"
@@ -9,14 +11,16 @@ echo "|  \/  \/ \__,_|_|  \__,_|_| |_| |_|\__,_|  |"
 echo "|                                           |"
 echo "|         Created by Kurama250              |"
 echo "|   Github: https://github.com/Kurama250    |"
-echo "|        Tools for Check IP v1.0            |"
-echo "|-------------------------------------------|"
+echo "|      Basic Tools for Check IP v1.1        |"
+echo " ------------------------------------------- "
 echo.
 
 :search_whois
 echo Enter an IP address:
 set /p ip_address=
-nslookup -type=any %ip_address% > result\whois.txt
+
+curl "https://ipapi.co/%ip_address%/json/" > result\whois.txt
+
 echo WHOIS search result saved to 'result\whois.txt'.
 
 :show_menu
